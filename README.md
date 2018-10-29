@@ -7,9 +7,9 @@ This script finds all methods with the given name in the given class in all modu
 
 Example:
 1) First locate the directory which is the first common directory for default odoo addons and external odoo addons.
- i.e. cd to opt/odoo if the installation looks as following:
-    -> opt/odoo
-    |--> opt/odoo/addons
-    |--> opt/odoo/third_party_addons
+ - i.e. cd to opt/odoo if the installation looks as following:
+ -   -> opt/odoo
+ -   |--> opt/odoo/addons
+ -   |--> opt/odoo/third_party_addons
 2) run:  python find_method.py odoo.class.name method_name
 3) The result will list all files, where the method_name of this class is defined
